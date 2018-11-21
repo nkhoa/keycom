@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Crios</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <% styles.forEach(function(file) { %>
+  <link rel="stylesheet" type="text/css" href="<%= file %>"/>
+  <% }); %>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- Add your HTML here -->
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <img class="navbar-brand" src="assets/images/logo.png" href="index.html">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="close"><img src="assets/images/cancel.png"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-item-wrapper" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About us</a>
+          <a class="nav-item nav-link" href="#">News</a>
+          <a class="nav-item nav-link" href="#">Blog</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="content-wrapper">
+  <div class="section section-intro no-padding">
+    <img class="img-responsive" src="assets/images/bg-intro.jpg" alt="crios"/>
+    <img class="img-responsive-mobi" src="assets/images/bg-intro-mobi-fix.png" alt="criosmobi">
+    <div class="section-content">
+      <div class="container">
+        <h2 class="section-title">Simple PSD template with cool stuff</h2>
+        <div class="section-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="btn-wrapper">
+          <a class="btn btn-shadow" id="button-scroll1" >EXPLORE TEMPLATE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-about-us" id="about-us">
+    <div class="section-content">
+      <div class="container">
+        <div class="section-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+          <h2 class="section-title">Lorem ipsum dolor sit amet</h2>
+          <div class="section-description">
+          <div class="row">
+            <div class="col-md-3 col-xs-12">
+              <img class="img-about-us" src="assets/images/icon-castle.png">
+              <div class="section-title">Lorem ipsum dolor sit amet</div>
+              <div class="section-note">Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.</div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <img class="img-about-us" src="assets/images/icon-snowflakes.png">
+              <div class="section-title">Lorem ipsum dolor sit amet</div>
+              <div class="section-note">Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.</div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <img class="img-about-us" src="assets/images/icon-freeze.png">
+              <div class="section-title">Lorem ipsum dolor sit amet</div>
+              <div class="section-note">Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.</div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <img class="img-about-us" src="assets/images/icon-bell.png">
+              <div class="section-title">Lorem ipsum dolor sit amet</div>
+              <div class="section-note">Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.</div>
+            </div>
+          </div>
+          </div>
+          <div class="btn-wrapper">
+            <a class="btn btn-shadow" id="button-scroll2">EXPLORE TEMPLATE</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-features no-padding" id="features">
+    <div class="section-content">
+      <div class="vertical-item">
+        <img class="img-responsive" src="assets/images/image-forest.jpg" alt="forest"/>
+        <div class="item-content">
+          <div class="table-wrapper">
+            <div class="table-cell-wrapper content-features1 middle">
+              <div class="item-title">Lorem ipsum dolor</div>
+              <div class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. <br/> Suspendisse lobortis lectus vel imperdiet ullamcorper</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vertical-item">
+        <img class="img-responsive" src="assets/images/image-wood.jpg" alt="wood"/>
+        <div class="item-content">
+          <div class="table-wrapper">
+            <div class="table-cell-wrapper content-features2 middle">
+              <div class="item-title">Lorem ipsum dolor</div>
+              <div class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. <br/> Suspendisse lobortis lectus vel imperdiet ullamcorper</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-our-apps">
+    <div class="section-content">
+      <div class="container">
+      <div class="vertical-item">
+        <img class="img-responsive" src="assets/images/app-screen.png" alt="app-screen"/>
+        <div class="item-content">
+          <div class="table-wrapper">
+            <div class="table-cell-wrapper content-our-apps1 middle">
+              <div class="item-title">Lorem ipsum dolor</div>
+              <div class="item-text">Lorem ipsum dolor sit amet,adipiscing elit.<br/>Suspendisse vel leo, venenatis est ut, tincidunt nibh. <br/> Suspendisse lectus vel imperdiet ullamcorper</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vertical-item">
+        <img class="img-responsive" src="assets/images/app-screen2.png" alt="app-mess"/>
+        <div class="item-content">
+          <div class="table-wrapper">
+            <div class="table-cell-wrapper content-our-apps2 middle">
+              <div class="item-title">Lorem ipsum dolor</div>
+              <div class="item-text">Lorem ipsum dolor sit amet,adipiscing elit.<br/>Suspendisse vel leo, venenatis est ut, tincidunt nibh. <br/> Suspendisse lectus vel imperdiet ullamcorper</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-our-ceo">
+    <div class="section-content">
+      <img class="img-responsive-mobi" src="assets/images/johndoe-mobi.png" alt="ceo">
+      <div class="container">
+        <div class="vertical-item">
+          <img class="img-responsive" src="assets/images/johndoe.jpg" alt="ceo"/>
+          <div class="item-content">
+            <div class="table-wrapper">
+              <div class="table-cell-wrapper content-our-ceo middle">
+                <div class="item-title">Template is awesome</div>
+                <div class="item-text">Lorem ipsum dolor sit amet,adipiscing elit.<br/>Suspendisse vel leo, venenatis est ut, tincidunt nibh. <br/> Suspendisse lectus vel imperdiet ullamcorper</div>
+                <div class="item-info"><span>John Doe</span><br/>CEO at Crios.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-our-quote">
+    <div class="section-content">
+      <div class="container">
+          <div class="item-title">Happy Clients <span></br>Testimonials</span></div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="table-wrapper">
+                  <div class="table-cell-wrapper table-cell-wrapper-img middle">
+                    <img src="assets/images/client.jpg" class="img-responsive">
+                  </div>
+                  <div class="table-cell-wrapper middle">
+                    <p class="client-info">
+                      Client Name</br><span>Designation</span>
+                    </p>
+                  </div>
+                </div>
+                <blockquote>
+                  <p class="quote-des">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type speci book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <div class="table-wrapper">
+                  <div class="table-cell-wrapper table-cell-wrapper-img middle">
+                    <img src="assets/images/client.jpg" class="img-responsive">
+                  </div>
+                  <div class="table-cell-wrapper middle">
+                    <p class="client-info">
+                      Client Name</br><span>Designation</span>
+                    </p>
+                  </div>
+                </div>
+                <blockquote>
+                  <p class="quote-des">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type speci book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <div class="table-wrapper">
+                <div class="table-cell-wrapper table-cell-wrapper-img middle">
+                  <img src="assets/images/client.jpg" class="img-responsive">
+                </div>
+                <div class="table-cell-wrapper middle">
+                  <p class="client-info">
+                    Client Name</br><span>Designation</span>
+                  </p>
+                </div>
+              </div>
+                <blockquote>
+                  <p class="quote-des">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type speci book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-contact">
+      <img class="img-responsive" src="assets/images/bg-footer.png" alt="contact">
+      <img class="img-responsive-mobi" src="assets/images/bg-footer-mobi.png" alt="contact-mobi">
+      <div class="section-content">
+      <div class="container">
+        <div class="section-title">
+          Let's<br/><span>Connect</span>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <form
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Name">
+              <input type="tel" class="form-control" id="phone" placeholder="Phone">
+            </div>
+            </form
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <form
+            <div class="form-group">
+              <input type="email" class="form-control" id="emnail" placeholder="Email">
+              <select class="form-control" id="service">
+                <option value="Service">Service</option>
+                <option value="Two">Two</option>
+                <option value="Three">Three</option></select>
+            </div>
+            </form>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="comments" rows="7" placeholder="Comment"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" id="submit">Submit now</button>
+          <div class="item-title">Contact with us</div>
+          <div class="item-text">Rapid solutions to the most complex business challenges<br/>with cooperative process-driven.</div>
+          <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="card" style="width: 23.125rem;">
+              <img class="img-responsive-map" src="assets/images/map1.jpg" alt="map1">
+              <i class="fas fas1 fa-map-marker-alt"></i>
+              <div class="item-content">
+                <div class="text-title">Head Quarter</div>
+                <div class="text-address"><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP,<br/><span>Los Angelos, USA</span></div>
+                <div class="text-phone"><i class="fas fa-mobile-alt"></i>+445 6231 411</div>
+                <div class="text-email"><i class="fas fa-envelope"></i>+445 6231 411</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card" style="width: 23.125rem;">
+              <img class="img-responsive-map" src="assets/images/map2.jpg" alt="map2">
+              <i class="fas fas1 fa-map-marker-alt"></i>
+              <div class="item-content">
+                <div class="text-title">California Office</div>
+                <div class="text-address"><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP,<br/><span>Los Angelos, USA</span></div>
+                <div class="text-phone"><i class="fas fa-mobile-alt"></i>+445 6231 411</div>
+                <div class="text-email"><i class="fas fa-envelope"></i>+445 6231 411</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="card" style="width: 23.125rem;">
+              <img class="img-responsive-map" src="assets/images/map3.jpg" alt="map3">
+              <i class="fas fas1 fa-map-marker-alt"></i>
+              <div class="item-content">
+                <div class="text-title">London Office</div>
+                <div class="text-address"><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP,<br/><span>Los Angelos, USA</span></div>
+                <div class="text-phone"><i class="fas fa-mobile-alt"></i>+445 6231 411</div>
+                <div class="text-email"><i class="fas fa-envelope"></i>+445 6231 411</div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="footer">
+  <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <p class="footer-title">News Letter</br></br><span>Enter your email address to subscribe our notification of our new post & features by email</span></p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Email Address" id="footer-email">
+              <span class="input-group-append">
+                <button class="btn " type="button" id="Subscrible">Subscrible</button>
+              </span>
+            </div>
+          </div>
+            <div class="col-md-2 col-xs-2">
+              <p class="footer-title">Navigation</p>
+                <div class="borderless">
+                  <li>Home</li>
+                  <li>About us</li>
+                  <li>Industry</li>
+                  <li>Services</li>
+                  <li>Page</li>
+                  <li>Contact us</li>
+                </div>
+            </div>
+          <div class="col-md-2 col-xs-2">
+            <p class="footer-title">Industary</p>
+            <div class="borderless">
+              <li>Education</li>
+              <li>Business</li>
+              <li>Realestate</li>
+              <li>Technology</li>
+              <li>Banking</li>
+              <li>Telicommunication</li>
+              <li>Much more</li>
+            </div>
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <p class="footer-title">Follow us</p>
+            <div class="borderless">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Linkedin</li>
+              <li>Google +</li>
+            </div>
+          </div>
+        </div>
+        <div class="hr"> <hr /></div>
+      <a class="copyright">Copyright &copy; 2018 - BSS</a>
+  </div>
+</footer>
+<!-- End your HTML -->
+
+<% scripts.forEach(function(file) { %>
+<script type="text/javascript" src="<%= file %>"></script>
+<% }); %>
+</body>
+</html>
